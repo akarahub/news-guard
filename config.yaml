@@ -1,0 +1,11 @@
+log_dir: folder\
+data_path: folder\file.xlsx
+model_checkpoint: "google-bert/bert-base-uncased" # Placeholder
+label2id: 
+ Real: 0 
+ Fake: 1
+id2label: 
+ 0: Real
+ 1: Fake
+batch_size: 32
+output_path: folder
